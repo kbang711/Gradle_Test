@@ -8,7 +8,6 @@ package edu.gatech.oad.antlab.person;
  *  @author Bob
  *  @version 1.1
  */
-//asdfasdfasdf
 public class Person5 {
   /** Holds the persons real name */
   private String name;
