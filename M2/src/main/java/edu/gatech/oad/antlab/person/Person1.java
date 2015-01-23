@@ -33,7 +33,7 @@ public class Person1 {
 	  //Person 1 put your implementation here
 	  char[] characters = input.toCharArray();
 	  input = ""; //made an empty String
-	  for (int i = 2; i < input.length(); i++) {
+	  for (int i = 2; i < char.length(); i++) {
 	  	input += characters[i];
 	  }
 	  input += characters[0];
