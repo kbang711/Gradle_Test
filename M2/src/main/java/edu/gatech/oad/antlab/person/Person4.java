@@ -32,11 +32,8 @@ public class Person4 {
      * @return the modified string
      */
     private String calc(String input) {
-      String output = "";
-      for (int i = 0; i < input.length(); i++) {
-          output += (char)((int)input.charAt(i) + 1);
-      }
-      return output;
+      //Person 4 put your implementation here
+	    return null;
     }
     
     /**git
@@ -50,11 +47,4 @@ public class Person4 {
     public String toString(String input) {
       return name + calc(input);
     }
-
-    public static void main(String[] args) {
-        Person4 p4 = new Person4("Jihad");
-        System.out.println(p4.calc("123"));
-    }
-
 }
-
