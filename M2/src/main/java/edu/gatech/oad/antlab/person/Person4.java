@@ -1,7 +1,5 @@
 package edu.gatech.oad.antlab.person;
 
-import static sun.text.normalizer.Utility.getChars;
-
 /**
  *  A simple class for person 4
  *  returns their name and a
