@@ -31,15 +31,8 @@ public class Person2 {
      * @return the modified string
      */
     private String calc(String input) {
-        Random rand = new Random();
-        char c[] = input.toCharArray();
-        for(int i = 0 ; i < c.length; i++) {
-            int j = rand.nextInt(c.length);
-            char temp = c[i];
-            c[i] = c[j];
-            c[j] = temp;
-        }
-        return new String(c);
+        //Person 1 put your implementation here
+	    return null;
     }
     /**
      * Return a string rep of this object
