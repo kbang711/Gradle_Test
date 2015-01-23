@@ -1,1 +1,30 @@
-apply plugin = 'java'
+//Kevin Bang
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+dependencies {
+    //external file
+    compile files('lib/resources.jar')
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'lib'
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'FirstGradle',
+                'Implementation-Version': version,
+                'Main-Class': 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+                'Class-Path': '../resources/main/resources.jar'
+    }
+}
