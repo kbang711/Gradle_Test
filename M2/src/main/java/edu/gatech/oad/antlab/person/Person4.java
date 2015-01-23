@@ -1,7 +1,5 @@
 package edu.gatech.oad.antlab.person;
 
-import static sun.text.normalizer.Utility.getChars;
-
 /**
  *  A simple class for person 4
  *  returns their name and a
@@ -33,7 +31,7 @@ public class Person4 {
      */
     private String calc(String input) {
       //Person 4 put your implementation here
-	    return null;
+	  return null;
     }
     
     /**git
